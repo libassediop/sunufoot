@@ -14,6 +14,6 @@ jobs:
       - uses: bluefireteam/flutter-gh-pages@v7
         with:
           baseHref: /sunufoof/
-          deploy_key: ${{ secrets.DEPLOY_KEY }} # Clé SSH privée pour accéder au référentiel GitHub
-          publish_branch: gh-pages # Branche sur laquelle les fichiers de build seront déployés
-          publish_dir: build/web # Dossier contenant les fichiers de build générés
+#          deploy_key: ${{ secrets.DEPLOY_KEY }} # Clé SSH privée pour accéder au référentiel GitHub
+#          publish_branch: gh-pages # Branche sur laquelle les fichiers de build seront déployés
+#          publish_dir: build/web # Dossier contenant les fichiers de build générés
