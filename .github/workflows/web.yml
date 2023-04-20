@@ -69,10 +69,10 @@ jobs:
       - name: Set up Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: stable
+          flutter-version: 3.3.5 # La version de Flutter à utiliser
 
       - name: Install dependencies
-        run: flutter packages get
+        run: flutter pub get
 
       - name: Build web
         run: flutter build web
