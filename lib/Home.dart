@@ -7,7 +7,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class Home extends StatelessWidget {
 
-  bool _isFavorite = false;
+  bool _isFavorit = false;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -24,7 +24,6 @@ class Home extends StatelessWidget {
               padding: EdgeInsets.only(top:55.h ),
               color: Colors.white,
               child: Row(
-
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Container(
@@ -79,7 +78,6 @@ class Home extends StatelessWidget {
              Container(
                  color: Colors.white,
                child: Card(
-
           margin: EdgeInsets.all(20),
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(10.0),
